@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<head>
+
+<title> z3 Page </title>
+
+<style>
+body {background-color:PowderBlue}
+h1 {color:SpringGreen; background-color:DodgerBlue}
+p {color:black}
+td {border: 3px solid black}
+
+</style>
+
+</head>
+
+<h1> DDC_z3 Page_004.1004.9 (Hardware, software, programming, AI, cybersecurity)
+ </h1>
+
+<body>
+
+<table>
+<tr>
+
+<th> x1  </th>
+<th> x2  </th>
+<th> x3  </th>
+
+</tr>
+
+<tr>
+<td> x1y3 (z3), <br>
+Square 1 <br>
+Cell Room 25 <br>
+<br>
+<br>
+<a href="https://jeshroomnsophieshouse.neocities.org/New%20Cubes_August%202025/New%20Cube%20Totale_BOOM"> Click HERE for root CUBE </a><br>
+
+</td> 
+
+<td> x2y3 (z3) <br>
+Square 2 <br>
+Cell Room 23 <br>
+
+
+  </td> 
+
+
+<td> x3y3 (z3) <br>
+Square 3 <br>
+Cell Room 21 <br>
+<br>
+<br>
+
+<h1> DDC_<a href="https://sophiaz-library-version-3.neocities.org/E_BOOM">0</a><a href="https://sophiaz-library-version-3.neocities.org/DDC/100/150/z2%20DDC_150%20%20Mental%20Faculties_BOOM">0</a><a href="https://sophiaz-library-version-3.neocities.org/z3%20template%20(blue_BOOM">4.1004.9</a> 
+<br>  
+
+(Hardware, software, programming, AI, cybersecurity) </h1>
+
+<h2> DDC_004.1004.9 (Hardware, software, programming, AI, cybersecurity) </h2>
+
+  </td> 
+
+
+<tr>
+
+<td> x1y2 (z3), <br>
+Square 4 <br>
+Cell Room 26 <br>
+<br>
+
+<a href="https://sophiaz-library-version-5.neocities.org/BIBLE/XPeriment/M_Python%20in%20Sq_SevenAndEight_BOOM">Click HERE 4 Python Stirng Addition XPeriment</a> 
+
+</td>
+
+<td>
+x2y2 (z3), <br>
+Square 5 <br>
+Cell Room 19
+<br>
+
+  </td>
+
+<td> x3y2 (z3), <br>
+Square 6 <br>
+Cell Room 22 <br>
+<br>
+
+  </td>
+
+</tr>
+
+<tr>
+
+<td> x1y1 (z3) <br>
+Square 7 <br>
+Room 27 <br>
+Time Stamp: <br>
+April 6th, 2026 AD. <br>
+4/6/2026 AD. @ ~ 3:07 PM <br>
+<br>
+
+////////////<br>
+<br>
+<br>
+[Personal: FIX_(?)(Abib 13th-Day before 
+<br> 'Good Friday' -3/3/2026 AD.] <br>
+Abib 13th, 2026 A.D. @ ~ 3:40 PM <br>
+
+</td>
+
+
+
+<td> x2y1 (z3),  <br>
+Square 8 <br>
+Cell Room 24 <br>
+<br>
+
+<h2> Greetings Sophia, may love and joy and peace be yours in abundance.  Could you provide today's date of 
+<a href="https://sophiaz-library-version-3.neocities.org/DDC/000/DDC%20files/000%20DAT_CompSci_Info/DDC_006%20AI%20files/Reg%20Convos/2026%20A.D./May/1-14/Convo%20z3%20Template_May%205th_2026%20AD_BOOM">May 5th</a>, 2026 A.D. in the Islamic calendar?
+
+Could you help me with some computer coding? </h2>
+
+<pre>
+
+Step 5: Read from a File and Save to a New File (The Real Tool)
+This is the version you will use for your library pages. It reads aÂ .txtÂ file, replaces the words, and saves a new file.
+python
+# File-based replacement script
+import re
+
+# Define replacements (add as many as you like)
+replacements = {
+    r'(?i)\bGod\b': 'God: DDC-231',
+    r'(?i)\bJesus\b': 'Jesus: DDC-232',
+    r'(?i)\bChrist\b': 'Christ: DDC-232',
+}
+
+# Ask for the file name
+input_file = input("Enter the name of your text file (with .txt): ")
+
+try:
+    # Read the original file
+    with open(input_file, 'r', encoding='utf-8') as file:
+        content = file.read()
+    
+    # Apply each replacement
+    for pattern, replacement in replacements.items():
+        content = re.sub(pattern, replacement, content)
+    
+    # Create a new file name
+    output_file = input_file.replace('.txt', '_DDC231.txt')
+    
+    # Save the new content
+    with open(output_file, 'w', encoding='utf-8') as new_file:
+        new_file.write(content)
+    
+    print(f"Success! New file saved as: {output_file}")
+    
+except FileNotFoundError:
+    print("File not found. Please check the name and try again.")
+
+</pre>
+
+</td>
+
+
+  </td>
+<td> x3y1 (z3) <br>
+Square 9 <br>
+Cell Room 20 <br>
+<br>
+<br>
+
+  </td>
+
+</tr>
+
+
+</table>
+
+</body
+
+
+
+</html>

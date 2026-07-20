@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example: Background Image & Table Borders</title>
+    <style>
+        /* 1. Setting the background as an image for the entire page */
+        body {
+            background-image: url("https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/pattern.jpg");
+            /* The image will repeat by default to cover the area */
+            background-repeat: repeat; /* You can also use 'no-repeat', 'repeat-x', etc. */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Basic table styling for clarity */
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse; /* Merges adjacent borders for a cleaner look */
+            background-color: rgba(255, 255, 255, 0.85); /* Slight white background for readability */
+        }
+
+        /* Standard border for all table headers and cells */
+        th, td {
+            border: 1px solid #666; /* The shorthand property: width | style | color */
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* 2. Special border around ONE specific cell.
+           We'll target it by giving it a unique class. */
+        .highlight-cell {
+            /* The CSS border shorthand property as you described: */
+            border-width: 3px;      /* width */
+            border-style: dashed;   /* style (required) */
+            border-color: #ff6600;  /* color */
+
+            /* The above 3 lines are equivalent to this single line: */
+            /* border: 3px dashed #ff6600; */
+
+            background-color: #fffacd; /* Adding a light background to make it stand out more */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <p><h1>Today's Date & CSS Techniques</h1></p> -->
+    <h1>FTD journal Entries and 'At Least I was not Idle' Art</h1>
+    <p><strong>Gregorian Date:</strong> December 3, 2025</p>
+    <p><strong>Islamic (Hijri) Date:</strong> 12 Jumada al-Awwal 1447 AH</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>'At Least I was not Idle' art piece</th>
+                <th>'From the Dust' Journal entry</th>
+                <th>Links</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <p>
+            <tr>
+                <td>Today's Date</td>
+                <td>December 3, 2025</td>
+                <td class="highlight-cell">12 Jumada al-Awwal 1447</td>
+            </tr>
+            <tr>
+                <td>Calendar Type</td>
+                <td>Solar</td>
+                <td>Lunar</td>
+            </tr>
+            </p> -->
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/least%20I%20wasn't%20idle%2010c.jpg">Click HERE for 'At Least I was not Idle' art Piece 10c.</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_1_BOOM">Click HERE for From the Dust Journal Entry 1</a></td>
+                <td><a href="https://jeshroomnsophieshouse.neocities.org/New%20Cubes_August%202025/Convos%20with%20Sophia/z1%20page%20to%20Conversations%20with%20Sophia_BOOM"> Click HERE for Sophia Past Conv's_<br>Earlier Format of the FTD Jouranl Entries</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/least%20I%20wasn't%20idle%2014.jpg">Click HERE for 'At Least I was not Idle' art Piece 14</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_2.5_BOOM">Click HERE for From the Dust Journal Entry 2.5</a></td>
+                <td><!-- <p>2 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle%2019.jpg">Click HERE for 'At Least I was not Idle' art Piece 19</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_3_BOOM">Click HERE for From the Dust Journal Entry 3</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Voice%20Recordings_2_BOOM">Click HERE for some of the Voice Recordings</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle_15.jpg">Click HERE for 'At Least I was not Idle' art Piece 15</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_4_BOOM">Click HERE for From the Dust Journal Entry 4</a></td>
+                <td><!-- <p>4 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle_5.jpg">Click HERE for 'At Least I was not Idle' art Piece 5</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_5_BOOM">Click HERE for From the Dust Journal Entry 5</a></td>
+                <td><!-- <p>5 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle_7.jpg">Click HERE for 'At Least I was not Idle' art Piece 7</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_6_BOOM">Click HERE for From the Dust Journal Entry 6</a></td>
+                <td><!-- <p>6 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Sophia's%20Library%20Version%201/Construction/DDC_220_FORMAL/z2_220_FORMAL_BOOM"> Click HERE for DDC_220 Formal </a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_7_BOOM">Click HERE for From the Dust Journal Entry 7</a></td>
+                <td><!-- <p>7 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://jeshroomnsophieshouse.neocities.org/New%20Cubes_August%202025/DDC%20z2%20Page_Sept%203rd_2025AD_BOOM"> Click HERE for DDC Main </a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_8%20and%209maybe_BOOM">Click HERE for From the Dust Journal Entry 8 and 9?</a></td>
+                <td><!-- <p>8 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://jeshroomnsophieshouse.neocities.org/New%20Cubes_August%202025/New%20Cube%20Totale_BOOM"> Click HERE for root CUBE </a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_10_BOOM">Click HERE for From the Dust Journal Entry 10</a></td>
+                <td><!-- <p>9 Hijrah (A.H.)</p> --></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

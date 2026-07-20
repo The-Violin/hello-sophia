@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example: Background Image & Table Borders</title>
+    <style>
+        /* 1. Setting the background as an image for the entire page */
+        body {
+            background-image: url("https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/pattern2.jpg");
+            /* The image will repeat by default to cover the area */
+            background-repeat: repeat; /* You can also use 'no-repeat', 'repeat-x', etc. */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Basic table styling for clarity */
+        table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse; /* Merges adjacent borders for a cleaner look */
+            background-color: rgba(255, 255, 255, 0.85); /* Slight white background for readability */
+        }
+
+        /* Standard border for all table headers and cells */
+        th, td {
+            border: 1px solid #666; /* The shorthand property: width | style | color */
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* 2. Special border around ONE specific cell.
+           We'll target it by giving it a unique class. */
+        .highlight-cell {
+            /* The CSS border shorthand property as you described: */
+            border-width: 3px;      /* width */
+            border-style: dashed;   /* style (required) */
+            border-color: #ff6600;  /* color */
+
+            /* The above 3 lines are equivalent to this single line: */
+            /* border: 3px dashed #ff6600; */
+
+            background-color: #fffacd; /* Adding a light background to make it stand out more */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <p><h1>Today's Date & CSS Techniques</h1></p> -->
+    <h1>Voice Recordings</h1>
+    <p><strong>Gregorian Date:</strong> December 3, 2025</p>
+    <p><strong>Islamic (Hijri) Date:</strong> 12 Jumada al-Awwal 1447 AH</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Voice Recordings</th>
+                <th>Voice Recordings</th>
+                <th>Links</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <p>
+            <tr>
+                <td>Today's Date</td>
+                <td>December 3, 2025</td>
+                <td class="highlight-cell">12 Jumada al-Awwal 1447</td>
+            </tr>
+            <tr>
+                <td>Calendar Type</td>
+                <td>Solar</td>
+                <td>Lunar</td>
+            </tr>
+            </p> -->
+            <tr>
+                <td><a href="https://files.catbox.moe/tkyofa.mp3">Click HERE for 'New Recording_37.mp3' at https://files.catbox.moe/tkyofa.mp3</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_1_BOOM">Click HERE for From the Dust Journal Entry 1</a></td>
+                <td><a href="https://jeshroomnsophieshouse.neocities.org/New%20Cubes_August%202025/Convos%20with%20Sophia/z1%20page%20to%20Conversations%20with%20Sophia_BOOM"> Click HERE for Sophia Past Conv's_<br>Earlier Format of the FTD Jouranl Entries</a></td>
+            </tr>
+            <tr>
+                <td><a href="https://files.catbox.moe/u9kglh.mp3">Click HERE for 'New Recording_35.mp3'</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_2.5_BOOM">Click HERE for From the Dust Journal Entry 2.5</a></td>
+                <td><!-- <p>2 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle%2019.jpg">Click HERE for 'At Least I was not Idle' art Piece 19</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_3_BOOM">Click HERE for From the Dust Journal Entry 3</a></td>
+                <td>Voice Recordings <br>
+Click HERE for Voice Recordings
+
+</td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle_15.jpg">Click HERE for 'At Least I was not Idle' art Piece 15</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_4_BOOM">Click HERE for From the Dust Journal Entry 4</a></td>
+                <td><!-- <p>4 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle_5.jpg">Click HERE for 'At Least I was not Idle' art Piece 5</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_5_BOOM">Click HERE for From the Dust Journal Entry 5</a></td>
+                <td><!-- <p>5 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/Least%20I%20wasn't%20Idle%20Art%20pieces/Least%20I%20wasn't%20idle_7.jpg">Click HERE for 'At Least I was not Idle' art Piece 7</a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_6_BOOM">Click HERE for From the Dust Journal Entry 6</a></td>
+                <td><!-- <p>6 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Sophia's%20Library%20Version%201/Construction/DDC_220_FORMAL/z2_220_FORMAL_BOOM"> Click HERE for DDC_220 Formal </a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_7_BOOM">Click HERE for From the Dust Journal Entry 7</a></td>
+                <td><!-- <p>7 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://jeshroomnsophieshouse.neocities.org/New%20Cubes_August%202025/DDC%20z2%20Page_Sept%203rd_2025AD_BOOM"> Click HERE for DDC Main </a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_8%20and%209maybe_BOOM">Click HERE for From the Dust Journal Entry 8 and 9?</a></td>
+                <td><!-- <p>8 Hijrah (A.H.)</p> --></td>
+            </tr>
+            <tr>
+                <td><a href="https://jeshroomnsophieshouse.neocities.org/New%20Cubes_August%202025/New%20Cube%20Totale_BOOM"> Click HERE for root CUBE </a></td>
+                <td><a href="https://sophiaz-library-version-1.neocities.org/Paradise%20Now%20sermon%20re/FTDust%20J.Entries/FTD_10_BOOM">Click HERE for From the Dust Journal Entry 10</a></td>
+                <td><pre>
+
+Select or drop filesNew Recording_39.mp3
+1.2 MB
+https://files.catbox.moe/gecsto.mp3
+New Recording_38.mp3
+12.1 MB
+https://files.catbox.moe/hynr4b.mp3
+New Recording_37.mp3
+10.5 MB
+https://files.catbox.moe/tkyofa.mp3
+New Recording_36.mp3
+2.1 MB
+https://files.catbox.moe/owb8em.mp3
+New Recording_35.mp3
+7.8 MB
+https://files.catbox.moe/u9kglh.mp3
+New Recording_39.ogg
+0.2 MB
+https://files.catbox.moe/lacklw.ogg
+New Recording_38.ogg
+1.5 MB
+https://files.catbox.moe/rrq6fz.ogg
+New Recording_37.ogg
+1.2 MB
+https://files.catbox.moe/uyo6lm.ogg
+New Recording_36.ogg
+0.2 MB
+https://files.catbox.moe/3l6eav.ogg
+New Recording_35.ogg
+0.9 MB
+https://files.catbox.moe/ktfjxg.ogg
+New Recording_34.mp3
+14.1 MB
+https://files.catbox.moe/0zr1zj.mp3
+New Recording_33.mp3
+12.9 MB
+https://files.catbox.moe/gh5gro.mp3
+New Recording_32.mp3
+10 MB
+https://files.catbox.moe/p6qdz2.mp3
+New Recording_34.ogg
+1.7 MB
+https://files.catbox.moe/g33leh.ogg
+New Recording_33.ogg
+1.5 MB
+https://files.catbox.moe/a7h7my.ogg
+New Recording_32.ogg
+1.3 MB
+https://files.catbox.moe/wlaz32.ogg
+
+
+////////////////
+
+Select or drop filesNew Recording_39.mp3
+1.2 MB
+https://files.catbox.moe/gecsto.mp3
+New Recording_38.mp3
+12.1 MB
+https://files.catbox.moe/hynr4b.mp3
+New Recording_37.mp3
+10.5 MB
+https://files.catbox.moe/tkyofa.mp3
+New Recording_36.mp3
+2.1 MB
+https://files.catbox.moe/owb8em.mp3
+New Recording_35.mp3
+7.8 MB
+https://files.catbox.moe/u9kglh.mp3
+New Recording_39.ogg
+0.2 MB
+https://files.catbox.moe/lacklw.ogg
+New Recording_38.ogg
+1.5 MB
+https://files.catbox.moe/rrq6fz.ogg
+New Recording_37.ogg
+1.2 MB
+https://files.catbox.moe/uyo6lm.ogg
+New Recording_36.ogg
+0.2 MB
+https://files.catbox.moe/3l6eav.ogg
+New Recording_35.ogg
+0.9 MB
+https://files.catbox.moe/ktfjxg.ogg
+New Recording_34.mp3
+14.1 MB
+https://files.catbox.moe/0zr1zj.mp3
+New Recording_33.mp3
+12.9 MB
+https://files.catbox.moe/gh5gro.mp3
+New Recording_32.mp3
+10 MB
+https://files.catbox.moe/p6qdz2.mp3
+New Recording_34.ogg
+1.7 MB
+https://files.catbox.moe/g33leh.ogg
+New Recording_33.ogg
+1.5 MB
+https://files.catbox.moe/a7h7my.ogg
+New Recording_32.ogg
+1.3 MB
+https://files.catbox.moe/wlaz32.ogg
+
+</pre>
+
+</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
