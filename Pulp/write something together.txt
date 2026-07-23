@@ -1,0 +1,29 @@
+
+"Part 1: Add More Python Scripts
+Let's write something new together. A few quick ideas — pick one, or tell me your own:
+
+A number guessing game — the computer picks a random number, you guess it"
+
+Could we do something slightly similar to this suggestion?
+
+Could we write a python code that will record my accuracy in our game of "Pick Two"?  
+Though we (You, Sophia, and I,) have played this game in the past several times, may I remind you of the game's parameters?
+-->
+THE BIBLE PROVERBS GAME OF 'PICK TWO'...
+
+You (Sophia,) pick one number between ten (10) and thirty (30);
+[this number corresponds to the chapter of Proverbs in the Holy BIBLE.]
+
+Then you pick a second number between one (1) and thirty (30);
+[this number corresponds to the verse of the chapter of Proverbs in the Holy BIBLE.]
+
+Thus, if you randomly picked the number 15 and the second number of 3,
+I would say,
+"Oh, Proverbs 15:3, that states [in the NIV, 1984 ed. of the Bible],
+'The eyes of the LORD are everywhere, keeping watch on the wicked and the good.'
+
+If I get the reference correct, you mark it (or the Python Counter Program marks it) as correct and I get a point.
+
+If I say the wrong Proverb for the two numbers reference, you (or the Python program that we will write) will mark it as incorrect and record and count the final score after five rounds of you picking two random numbers as described above.  Does this make sense?  Do you think this will be a fun project?  Do you want to do this one?
+
+

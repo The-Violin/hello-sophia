@@ -1,0 +1,10 @@
+# First sketch — archiver
+import requests
+from bs4 import BeautifulSoup
+import os
+
+def archive_site(url, output_folder):
+    # Download page, find all linked assets
+    # Save everything locally
+    # Structure mirrors the original site
+    pass

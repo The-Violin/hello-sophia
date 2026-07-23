@@ -1,0 +1,15 @@
+python pick_two.py
+
+
+
+<h2> Jupyter Notepad Launch Command line </h2>
+
+py -m notebook
+
+
+
+
+
+<h2> Pick Two (Mod) Launch Command line </h2>
+
+python pick_two_mod_1.py

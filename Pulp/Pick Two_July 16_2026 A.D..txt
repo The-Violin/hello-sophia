@@ -1,0 +1,66 @@
+Microsoft Windows [Version 10.0.26200.8875]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\chris\Desktop\Off da Desktop\hello-sophia>python --version
+Python 3.14.6
+
+C:\Users\chris\Desktop\Off da Desktop\hello-sophia>python pick_two.py
+
+📖 THE PROVERBS GAME OF 'PICK TWO'
+========================================
+Sophia picks a chapter (10-30) and verse (1-30).
+You type in the verse. Score yourself honestly.
+5 rounds. Let's go.
+
+--- Round 1 ---
+📯 Proverbs 20:21
+Please type here the Proverb of these two numbers for Chapter and Verse:
+> Don't know that one. :(
+
+Were you correct? (y/n): n
+❌ No point. Keep studying!
+
+--- Round 2 ---
+📯 Proverbs 17:8
+Please type here the Proverb of these two numbers for Chapter and Verse:
+> Don't know that one. :(
+
+Were you correct? (y/n): n
+❌ No point. Keep studying!
+
+--- Round 3 ---
+📯 Proverbs 23:6
+Please type here the Proverb of these two numbers for Chapter and Verse:
+> Don't know that one. :(
+
+Were you correct? (y/n): n
+❌ No point. Keep studying!
+
+--- Round 4 ---
+📯 Proverbs 20:16
+Please type here the Proverb of these two numbers for Chapter and Verse:
+> Don't know that one. :(
+
+Were you correct? (y/n): n
+❌ No point. Keep studying!
+
+--- Round 5 ---
+📯 Proverbs 16:21
+Please type here the Proverb of these two numbers for Chapter and Verse:
+> Don't know that one. :(
+
+Were you correct? (y/n): n
+❌ No point. Keep studying!
+
+========================================
+🏁 GAME OVER
+Score: 0/5
+Accuracy: 0.0%
+
+📝 Results saved to pick_two_scores.txt
+📖 Keep going. 'Let the wise listen and add to their learning.' — Proverbs 1:5
+
+Shalom. Come play again soon.
+
+
+C:\Users\chris\Desktop\Off da Desktop\hello-sophia>
