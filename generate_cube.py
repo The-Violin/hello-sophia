@@ -1,5 +1,5 @@
 """
-Cube Generator — Phase 1
+Cube Generator — Phase 1.1
 Generates a z1 HTML cube page for any book of the Bible.
 Loads text from bible_json, applies DDC keyword tags,
 and formats it into the 9-square cube template.
@@ -7,6 +7,7 @@ and formats it into the 9-square cube template.
 
 import json
 import os
+import re
 from datetime import datetime
 
 # ============================================
@@ -20,45 +21,98 @@ AUTHOR = "St. Paul the Apostle"  # Author for display
 # DDC KEYWORD REPLACEMENTS
 # ============================================
 replacements = {
-    # The Big Three
+    # ===== THE BIG THREE =====
     "light": "light [:DDC_535]",
     "love": "love [:DDC_241]",
     "truth": "truth [:DDC_111]",
 
-    # Core Theological
+    # ===== CORE THEOLOGICAL =====
     "God": "God [:DDC_231]",
     "Christ": "Christ [:DDC_232]",
+    "Jesus": "Jesus [:DDC_232]",
+    "Lord": "Lord [:DDC_231]",
+    "Spirit": "Spirit [:DDC_231]",
     "Man": "Man [:DDC_233]",
     "grace": "grace [:DDC_234]",
     "faith": "faith [:DDC_234]",
     "salvation": "salvation [:DDC_234]",
     "righteousness": "righteousness [:DDC_234]",
     "righteous": "righteous [:DDC_234]",
-
-    # Church & Practice
-    "church": "church [:DDC_261]",
-    "prayer": "prayer [:DDC_217]",
-    "religion": "religion [:DDC_200]",
-    "law": "law [:DDC_340]",
+    "mercy": "mercy [:DDC_241]",
+    "peace": "peace [:DDC_172]",
+    "hope": "hope [:DDC_234]",
+    "life": "life [:DDC_128]",
+    "eternal": "eternal [:DDC_237]",
+    "good": "good [:DDC_111]",
     "evil": "evil [:DDC_216]",
     "wicked": "wicked [:DDC_216]",
     "wickedness": "wickedness [:DDC_216]",
+    "sin": "sin [:DDC_233]",
+    "holy": "holy [:DDC_231]",
+    "glory": "glory [:DDC_231]",
 
-    # Knowledge & Language
+    # ===== CHURCH & PRACTICE =====
+    "church": "church [:DDC_261]",
+    "prayer": "prayer [:DDC_217]",
+    "religion": "religion [:DDC_200]",
+    "doctrine": "doctrine [:DDC_230]",
+    "teaching": "teaching [:DDC_207]",
+    "law": "law [:DDC_340]",
+    "justice": "justice [:DDC_172]",
+    "judgment": "judgment [:DDC_172]",
+
+    # ===== KNOWLEDGE & WISDOM =====
     "knowledge": "knowledge [:DDC_001]",
     "wisdom": "wisdom [:DDC_001]",
-    "language": "language [:DDC_400]",
+    "understanding": "understanding [:DDC_001]",
     "Word": "Word [:DDC_220]",
+    "language": "language [:DDC_400]",
+    "Scripture": "Scripture [:DDC_220]",
 
-    # Arts & Culture
+    # ===== RELATIONSHIPS =====
+    "servant": "servant [:DDC_305]",
+    "master": "master [:DDC_305]",
+    "neighbor": "neighbor [:DDC_302]",
+    "friend": "friend [:DDC_302]",
+    "father": "father [:DDC_306]",
+    "son": "son [:DDC_306]",
+    "child": "child [:DDC_306]",
+    "husband": "husband [:DDC_306]",
+    "wife": "wife [:DDC_306]",
+
+    # ===== HEART & SOUL =====
+    "heart": "heart [:DDC_128]",
+    "soul": "soul [:DDC_128]",
+    "mind": "mind [:DDC_128]",
+    "strength": "strength [:DDC_128]",
+    "conscience": "conscience [:DDC_170]",
+
+    # ===== CREATION & NATURE =====
+    "sun": "sun [:DDC_523]",
+    "earth": "earth [:DDC_550]",
+    "water": "water [:DDC_553]",
+    "fire": "fire [:DDC_541]",
+    "tree": "tree [:DDC_582]",
+    "fruit": "fruit [:DDC_581]",
+    "bird": "bird [:DDC_598]",
+    "wine": "wine [:DDC_641]",
+    "house": "house [:DDC_643]",
+
+    # ===== ARTS & CULTURE =====
     "music": "music [:DDC_780]",
+    "song": "song [:DDC_782]",
     "art": "art [:DDC_700]",
     "literature": "literature [:DDC_800]",
     "sculpture": "sculpture [:DDC_730]",
     "drawing": "drawing [:DDC_740]",
     "painting": "painting [:DDC_750]",
-    "theatrical arts": "theatrical arts [:DDC_792]",
     "athletics": "athletics [:DDC_790]",
+
+    # ===== TIME & ETERNITY =====
+    "day": "day [:DDC_529]",
+    "year": "year [:DDC_529]",
+    "time": "time [:DDC_529]",
+    "eternity": "eternity [:DDC_237]",
 }
 
 # ============================================
@@ -90,11 +144,9 @@ for chapter_num in sorted(book_data.keys(), key=int):
     for verse_num in sorted(chapter_verses.keys(), key=int):
         verse_text = chapter_verses[verse_num]
 
-        # Apply DDC replacements
+        # Apply DDC replacements with word boundaries
         for old, new in replacements.items():
-            # Case-insensitive replacement while preserving case
-            import re
-            pattern = re.compile(re.escape(old), re.IGNORECASE)
+            pattern = re.compile(r'\b' + re.escape(old) + r'\b', re.IGNORECASE)
             verse_text = pattern.sub(new, verse_text)
 
         scripture_html += f'<p><sup>{verse_num}</sup> {verse_text}</p>\n'
@@ -257,7 +309,7 @@ Cell Room: 9<br>
 Chapters: {len(book_data)}<br>
 <br>
 <h3>Generator:</h3>
-generate_cube.py v1.0<br>
+generate_cube.py v1.1<br>
 </td>
 
 <!-- ====== SQUARE 8: CHET (Scripture Text) ====== -->
@@ -315,4 +367,4 @@ with open(output_file, "w", encoding="utf-8") as f:
     f.write(html)
 
 print(f"✅ Saved: {output_file}")
-print(f"📖 {BOOK_TITLE} — {len(book_data)} chapters generated with DDC tags.")
+print(f"📖 {BOOK_TITLE} — {len(book_data)} chapters generated with {len(replacements)} DDC keywords.")
