@@ -2809,3 +2809,54 @@ Proverbs 10:21: Correct
 Proverbs 10:3: Correct
   Player wrote: ""The LORD does not let the righteous go hungry but He thwarts the craving of the wicked.""
 Final Score: 4/4 (1 skipped) [Online Compiler]
+
+--- Game played on 2026-08-10 13:53:37 ---
+Proverbs 16:22: Skipped (not a favorite)
+Proverbs 27:14: "If a man loudly blesses his neighbor early in the morning, it will be taken as a curse."
+  Player wrote: "Correct"
+Proverbs 17:24: "A discerning man keeps wisdom in view but a fool's eyes wander to the ends of the earth."
+  Player wrote: "Correct"
+Proverbs 24:5: "A wise man has great power and a man of knowledge increases strength."
+  Player wrote: "Correct"
+Proverbs 14:22: S.H.K.
+  Player wrote: "Incorrect"
+Final Score: 3/4 (75.0%), 1 skipped
+
+--- Game played on 2026-08-10 13:58:44 [Online Compiler] ---
+Proverbs 10:6: Correct
+  Player wrote: ""Blessings crown the head of the righteous but violence overwhelms the mouth of the wicked.""
+Proverbs 10:29: Correct
+  Player wrote: ""The way of the LORD is a refuge for the righteous but it is the ruin of those who do evil.""
+Proverbs 10:24: Correct
+  Player wrote: ""What the wicked dreads will overtake him; what the righteous desire will be granted.""
+Proverbs 11:31: Correct
+  Player wrote: ""If the righteous receive their due on earth, how much more the ungodly and the sinner!"
+Proverbs 10:9: Incorrect
+  Player wrote: ""but he who takes crooked paths will be found out... The LORD upholds the blameless? but he who takes crooked paths..."
+Final Score: 4/5 (0 skipped) [Online Compiler]
+
+--- Game played on 2026-08-10 14:01:39 [Online Compiler] ---
+Proverbs 11:15: Correct
+  Player wrote: ""He who puts up security for another will surely suffer but he who refuses to strike hands in pledge is safe.""
+Proverbs 11:29: Correct
+  Player wrote: ""He who brings trouble on his family will inherit only wind and the fool will be servant to the wise.""
+Proverbs 11:14: Correct
+  Player wrote: ""For lack of guidance a nation falls but many advisors make victory sure.""
+Proverbs 10:30: Correct
+  Player wrote: ""The righteous will never be uprooted but the wicked will not remain in the land.""
+Proverbs 10:29: Correct
+  Player wrote: ""The way of the LORD is a refuge for the righteous but it is the ruin of those who do evil.""
+Final Score: 5/5 (0 skipped) [Online Compiler]
+
+--- Game played on 2026-08-11 02:52:13 ---
+Proverbs 17:5: "He who mocks the poor shows contempt for their Maker; whoever gloats over disaster will not go unpunished."
+  Player wrote: "Correct"
+Proverbs 21:18: "The wicked become a ransome for the righteous and the unfaithful for the upright."
+  Player wrote: "Correct"
+Proverbs 23:29: Who has woe?  Who has sorrow?  Who has strife?  Who has needless bruises?  Who has bloodshot eyes?  Those who linger over wine, those who go to sample bowels of mixed wine; in the end it bites like a serpent and poisons like a viper."
+  Player wrote: "Correct"
+Proverbs 13:21: "No harm befalls the righteous but the wicked have their fill of trouble."
+  Player wrote: "Incorrect"
+Proverbs 23:24: "The father of a righteous man has great joy; he who has a wise son delights in him."
+  Player wrote: "Correct"
+Final Score: 4/5 (80.0%), 0 skipped
